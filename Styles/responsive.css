@@ -20,4 +20,73 @@
     .mobile-nav-menu {
         display: block;
     }
+
+    /* hero section  */
+    .hero-find {
+        width: 90%;
+    }
+
+    .hero-inputs {
+        display: flex;
+        padding: 1.6rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .hero-inputs input,
+    button {
+        width: 100%;
+    }
+
+    .hero-inputs button {
+        width: 100%;
+    }
+
+    .hero {
+        width: 100%;
+        margin: 0 auto;
+        height: 48.3rem;
+    }
+
+    .hero-find {
+        display: flex;
+        width: 28.7rem;
+        padding: 1.6rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.6rem;
+        height: 30rem;
+    }
+
+    .hero-details h1 {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 2.2rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+
+    }
+
+    .hero-details p {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.1rem;
+        margin-top: 0.8rem;
+    }
+
+    .hero-details {
+        padding-top: 3.2rem;
+        margin-bottom: 3.2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+
 }
