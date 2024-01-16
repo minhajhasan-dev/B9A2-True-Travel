@@ -23,11 +23,17 @@ header {
     justify-content: space-between;
 }
 
+.mobile-nav-menu {
+    display: none;
+}
+
 .info {
     display: flex;
     align-items: center;
     gap: 1.663rem;
 }
+
+
 
 .info h1 {
     font-size: 3.6rem;
@@ -38,6 +44,8 @@ header {
 .logo-color {
     color: #FF5400;
 }
+
+
 
 .nav-menu>ul {
     display: flex;
