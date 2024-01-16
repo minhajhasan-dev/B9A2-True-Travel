@@ -1,5 +1,6 @@
-/* navbar responsive  */
 @media screen and (max-width: 600px) {
+
+    /* navbar responsive  */
     .nav-bar {
         justify-content: space-between;
     }
