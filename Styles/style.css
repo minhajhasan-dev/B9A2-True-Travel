@@ -18,6 +18,39 @@ main {
     margin: 5rem auto 0;
 }
 
+.common-btn-new {
+    width: 17.4rem;
+    height: 5.2rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 0.8rem;
+    background: #FF5400;
+    border: none;
+}
+
+.section-heading {
+    color: #131318;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.description-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 2.4rem;
+    line-height: 2.6rem;
+}
+
+.card-heading {
+    color: #131318;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-top: 3.2rem;
+}
+
 /* nav styles here  */
 .nav-bar {
     display: flex;
@@ -126,4 +159,198 @@ main {
     font-size: 2rem;
     font-weight: 700;
     background-color: #FF5400;
+}
+
+/* Our Popular Tours section styles  */
+.popular-tours {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+    margin-top: 10rem;
+    align-items: center;
+    justify-items: end;
+}
+
+.popular-tours-details {}
+
+.popular-tours-details ul {
+    padding-left: 2.2rem;
+}
+
+.popular-tours-details button {
+    margin-top: 3.2rem;
+}
+
+.description-text li {
+    margin-top: 2.4rem;
+}
+
+/* choose your destination styles  */
+.choose-destination {
+    margin-top: 10rem;
+}
+
+
+.destination-details {
+    margin-bottom: 4.8rem;
+    text-align: center;
+}
+
+/* grid styles here  */
+.destination-grid {}
+
+.grid-a {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.4rem;
+
+}
+
+/* grid -a  */
+.grid-a .first {
+    width: auto;
+    height: 37rem;
+    border-radius: 1.6rem;
+    background-image: url(../Images/Rectangle\ 5.png);
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .grid-a .first h1 */
+.common-heading {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    font-weight: 800;
+    height: 100%;
+}
+
+.grid-a .second {
+    width: auto;
+    height: 37rem;
+    border-radius: 1.6rem;
+    background-image: url(../Images/Rectangle\ 8.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* grid- b  */
+.grid-b {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.4rem;
+    margin-top: 2.4rem;
+}
+
+.grid-b .first {
+    width: auto;
+    height: 37rem;
+    border-radius: 1.6rem;
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-b .second {
+    width: auto;
+    height: 37rem;
+    border-radius: 1.6rem;
+    background-image: url(../Images/Rectangle\ 7.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-b .third {
+    width: auto;
+    height: 37rem;
+    border-radius: 1.6rem;
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* grid -c  */
+.grid-c {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.4rem;
+    margin-top: 2.4rem;
+}
+
+.grid-c .first {
+    width: auto;
+    height: 37rem;
+    border-radius: 1.6rem;
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-c .second {
+    width: auto;
+    height: 37rem;
+    border-radius: 1.6rem;
+    background-image: url(../Images/Rectangle\ 10.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* why choose us section  */
+.why-us {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.choose-us-details {
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+
+.choose-us-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.choose-us-card .card-1 {
+    border-radius: 1.6rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 57.3rem;
+    height: 28.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.2rem;
+}
+
+.choose-us-card .card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 57.3rem;
+    height: 28.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.2rem;
+}
+
+.choose-us-card .card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 57.3rem;
+    height: 28.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.2rem;
 }

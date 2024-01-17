@@ -1,5 +1,16 @@
 @media screen and (max-width: 600px) {
 
+    /* global styles  */
+    .section-heading {
+        font-size: 2rem;
+    }
+
+    .description-text {
+        font-size: 1.4rem;
+        margin-top: 2.4rem;
+        line-height: 2.4rem;
+    }
+
     /* navbar responsive  */
     .nav-bar {
         justify-content: space-between;
@@ -21,7 +32,7 @@
         display: block;
     }
 
-    /* hero section  */
+    /* hero section responsive */
     .hero-find {
         width: 90%;
     }
@@ -88,5 +99,37 @@
         padding-right: 1.5rem;
     }
 
+    /* Our Popular Tours section styles  */
+    .popular-tours {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.4rem;
+        min-height: 55rem;
+        margin-top: 10rem;
+        align-items: start;
+        justify-items: start;
 
+    }
+
+    .popular-tours-details {
+        width: 45rem;
+    }
+
+    .popular-tours-img img {
+        width: 45rem;
+    }
+
+    /* choose your destination styles  */
+    .choose-destination {
+        margin-top: 2.4rem;
+    }
+
+    .choose-destination {
+        margin-top: 2.4rem;
+    }
+
+    .grid-a,
+    .grid-b,
+    .grid-c {
+        grid-template-columns: 1fr;
+    }
 }
