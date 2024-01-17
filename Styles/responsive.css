@@ -132,4 +132,21 @@
     .grid-c {
         grid-template-columns: 1fr;
     }
+
+    .newsletter {
+        flex-wrap: wrap;
+
+    }
+
+    .newsletter-img {
+        width: 100%;
+    }
+
+    .newsletter-img img {
+        width: 100%;
+    }
+
+    .newsletter-info {
+        width: 100%;
+    }
 }
